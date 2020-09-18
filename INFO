@@ -1,0 +1,10 @@
+title: IO4-SignalDriver-Small
+project: IO4-SignalDriver-Small
+designer: John Plocher
+image_path: IO4-SignalDriver-Small-Graphic.png
+author: John Plocher
+fabricated: yes
+fab_date: 2019.09
+status: released
+release: yes
+tags: [eagle, SPCoast]

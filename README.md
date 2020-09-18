@@ -1,0 +1,20 @@
+# IO4-SignalDriver-Small
+## License: CERN Open Hardware Licence v1.2
+
+IO4 Output adapter driver for a 2-head signal mast
+
+Takes an IO4-Output and drives 2x 3-LED common Anode signal heads using a demultiplexor logic chip.
+
+Designed in conjunction with Jay Beckham for his South Shore Lines layout
+
+Circuit info:
+  * The board is driven from an IO4 port that carries +5, GND and 4x output signals.
+  * Signal heads / LEDs are "common anode" - pin4 of the signal head connector is VCC, the "colors" pins are driven LOW to energize the LED.
+  * The board can drive 2x signal heads, each with R, Y, G and DARK aspects
+      * Control signals 1 & 2 and  3 & 4, each control one head:
+          : 00 - Green
+          : 01 - Yellow
+          : 10 - Red
+          : 11 - Dark
+  * This board does not have provision for adjustable LED brightness.  The resistors are fixed at production time for high efficiency LEDS used in SPCoast's Simple Signal masts.
+
