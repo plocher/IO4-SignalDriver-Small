@@ -496,26 +496,26 @@ Common Anode CL heads</text>
 <libraries>
 <library name="SPCoast">
 <packages>
-<package name="0805-CAP">
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-1.27" y="1.27" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
-<wire x1="-1.4478" y1="-0.7366" x2="-1.4478" y2="0.7366" width="0.1524" layer="21"/>
-<wire x1="-1.4478" y1="0.7366" x2="1.4478" y2="0.7366" width="0.1524" layer="21"/>
-<wire x1="-1.4478" y1="-0.7366" x2="1.4478" y2="-0.7366" width="0.1524" layer="21"/>
-<wire x1="1.4478" y1="-0.7366" x2="1.4478" y2="0.7366" width="0.1524" layer="21"/>
-<wire x1="-0.3683" y1="0.2542" x2="0.3683" y2="0.2542" width="0.1524" layer="21"/>
-<wire x1="-0.3683" y1="-0.2666" x2="0.3683" y2="-0.2666" width="0.1524" layer="21"/>
-<wire x1="-1.3968" y1="0.7544" x2="1.4476" y2="0.7544" width="0.0508" layer="39"/>
-<wire x1="1.4476" y1="0.7544" x2="1.4476" y2="-0.729" width="0.0508" layer="39"/>
-<wire x1="1.4476" y1="-0.729" x2="-1.3968" y2="-0.729" width="0.0508" layer="39"/>
-<wire x1="-1.3968" y1="-0.729" x2="-1.3968" y2="0.7544" width="0.0508" layer="39"/>
-<rectangle x1="0.40005" y1="-0.4699" x2="0.90015" y2="0.4801" layer="49"/>
-<rectangle x1="-0.9017" y1="-0.4699" x2="-0.4016" y2="0.4801" layer="49"/>
+<package name="0603-CAP">
+<wire x1="-1.473" y1="0.6858" x2="1.473" y2="0.6858" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.6858" x2="1.473" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.6858" x2="-1.473" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.6858" x2="-1.473" y2="0.6858" width="0.0508" layer="39"/>
+<wire x1="-0.2286" y1="0.24785" x2="0.2286" y2="0.24785" width="0.1524" layer="21"/>
+<wire x1="-0.2286" y1="-0.23485" x2="0.2286" y2="-0.23485" width="0.1524" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-1.1557" y1="-0.4699" x2="-0.6556" y2="0.4801" layer="49"/>
-<rectangle x1="0.67945" y1="-0.4699" x2="1.17955" y2="0.4801" layer="49"/>
+<wire x1="-1.524" y1="0.635" x2="-1.524" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-0.635" x2="1.524" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-0.635" x2="1.524" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.524" y1="0.635" x2="-1.524" y2="0.635" width="0.127" layer="21"/>
+<rectangle x1="-0.80645" y1="-0.4699" x2="-0.30635" y2="0.4801" layer="49"/>
+<rectangle x1="0.3048" y1="-0.4699" x2="0.8049" y2="0.4801" layer="49"/>
+<rectangle x1="-1.16205" y1="-0.4699" x2="-0.66195" y2="0.4801" layer="49"/>
+<rectangle x1="0.6604" y1="-0.4699" x2="1.1605" y2="0.4801" layer="49"/>
 </package>
 <package name="SCREWTERMINAL-3.5MM-4">
 <wire x1="-2.3" y1="3.4" x2="12.8" y2="3.4" width="0.2032" layer="21"/>
@@ -679,24 +679,25 @@ Common Anode CL heads</text>
 <text x="3.81" y="3.81" size="1.4224" layer="49">1</text>
 <text x="-4.826" y="1.778" size="1.4224" layer="49">6</text>
 </package>
-<package name="0805-RES">
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="-1.4478" y1="0.7366" x2="1.4478" y2="0.7366" width="0.1524" layer="21"/>
-<wire x1="-1.4478" y1="-0.7366" x2="1.4478" y2="-0.7366" width="0.1524" layer="21"/>
-<wire x1="-1.4478" y1="-0.7366" x2="-1.4478" y2="0.7366" width="0.1524" layer="21"/>
-<wire x1="1.4478" y1="-0.7366" x2="1.4478" y2="0.7366" width="0.1524" layer="21"/>
+<package name="0603-RES">
+<wire x1="-1.473" y1="0.6528" x2="1.473" y2="0.6528" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.6528" x2="1.473" y2="-0.6528" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.6528" x2="-1.473" y2="-0.6528" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.6528" x2="-1.473" y2="0.6528" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="49"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="49"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="49"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="49"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.254" layer="21"/>
-<wire x1="-1.3968" y1="0.7544" x2="1.4476" y2="0.7544" width="0.0508" layer="39"/>
-<wire x1="1.4476" y1="0.7544" x2="1.4476" y2="-0.729" width="0.0508" layer="39"/>
-<wire x1="1.4476" y1="-0.729" x2="-1.3968" y2="-0.729" width="0.0508" layer="39"/>
-<wire x1="-1.3968" y1="-0.729" x2="-1.3968" y2="0.7544" width="0.0508" layer="39"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="1.524" y1="0.635" x2="-1.524" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="0.635" x2="-1.524" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-0.635" x2="1.524" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-0.635" x2="1.524" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.1143" y1="0" x2="0.1143" y2="0.002540625" width="0.254" layer="21"/>
 </package>
 <package name="MOUNTINGHOLE">
 <hole x="0" y="0" drill="3.6"/>
@@ -914,7 +915,7 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="C1X11" library="SPCoast" package="0805-CAP" value="0.1UF" x="23.225" y="27.686" rot="R270"/>
+<element name="C1X11" library="SPCoast" package="0603-CAP" value="0.1UF" x="23.225" y="27.686" rot="R270"/>
 <element name="CON4X11" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="3.54" y="24.765" rot="R270"/>
 <element name="CON5X11" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="3.54" y="42.291" rot="R270"/>
 <element name="FID1X11" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.863" y="8.255"/>
@@ -923,15 +924,15 @@ design rules under a new name.
 <element name="HEAD2X11" library="SPCoast" package="4P-2.0" value="2mm" x="9.89" y="20.32" rot="R270"/>
 <element name="IC1X11" library="SPCoast" package="SO16" value="74HS139A" x="29.448" y="27.559"/>
 <element name="IO4X11" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="44.815" y="27.94" rot="R90"/>
-<element name="R4X11" library="SPCoast" package="0805-RES" value="1k0" x="19.415" y="20.574"/>
-<element name="R6X11" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="16.764"/>
-<element name="R7X11" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="24.384"/>
-<element name="R8X11" library="SPCoast" package="0805-RES" value="1k0" x="19.415" y="36.449"/>
-<element name="R9X11" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="33.274"/>
-<element name="R10X11" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="39.624"/>
+<element name="R4X11" library="SPCoast" package="0603-RES" value="1k0" x="19.415" y="20.574"/>
+<element name="R6X11" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="16.764"/>
+<element name="R7X11" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="24.384"/>
+<element name="R8X11" library="SPCoast" package="0603-RES" value="1k0" x="19.415" y="36.449"/>
+<element name="R9X11" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="33.274"/>
+<element name="R10X11" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="39.624"/>
 <element name="U$1X11" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="43.545" y="11.43"/>
 <element name="U$2X11" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="43.545" y="44.45"/>
-<element name="C1X12" library="SPCoast" package="0805-CAP" value="0.1UF" x="23.225" y="71.336" rot="R270"/>
+<element name="C1X12" library="SPCoast" package="0603-CAP" value="0.1UF" x="23.225" y="71.336" rot="R270"/>
 <element name="CON4X12" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="3.54" y="68.415" rot="R270"/>
 <element name="CON5X12" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="3.54" y="85.941" rot="R270"/>
 <element name="FID1X12" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.863" y="51.905"/>
@@ -940,15 +941,15 @@ design rules under a new name.
 <element name="HEAD2X12" library="SPCoast" package="4P-2.0" value="Head 2" x="9.89" y="63.97" rot="R270"/>
 <element name="IC1X12" library="SPCoast" package="SO16" value="74HS139A" x="29.448" y="71.209"/>
 <element name="IO4X12" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="44.815" y="71.59" rot="R90"/>
-<element name="R4X12" library="SPCoast" package="0805-RES" value="1k0" x="19.415" y="64.224"/>
-<element name="R6X12" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="60.414"/>
-<element name="R7X12" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="68.034"/>
-<element name="R8X12" library="SPCoast" package="0805-RES" value="1k0" x="19.415" y="80.099"/>
-<element name="R9X12" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="76.924"/>
-<element name="R10X12" library="SPCoast" package="0805-RES" value="2k2" x="19.415" y="83.274"/>
+<element name="R4X12" library="SPCoast" package="0603-RES" value="1k0" x="19.415" y="64.224"/>
+<element name="R6X12" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="60.414"/>
+<element name="R7X12" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="68.034"/>
+<element name="R8X12" library="SPCoast" package="0603-RES" value="1k0" x="19.415" y="80.099"/>
+<element name="R9X12" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="76.924"/>
+<element name="R10X12" library="SPCoast" package="0603-RES" value="2k2" x="19.415" y="83.274"/>
 <element name="U$1X12" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="43.545" y="55.08"/>
 <element name="U$2X12" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="43.545" y="88.1"/>
-<element name="C1X21" library="SPCoast" package="0805-CAP" value="0.1UF" x="73.225" y="27.686" rot="R270"/>
+<element name="C1X21" library="SPCoast" package="0603-CAP" value="0.1UF" x="73.225" y="27.686" rot="R270"/>
 <element name="CON4X21" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="53.54" y="24.765" rot="R270"/>
 <element name="CON5X21" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="53.54" y="42.291" rot="R270"/>
 <element name="FID1X21" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.863" y="8.255"/>
@@ -957,15 +958,15 @@ design rules under a new name.
 <element name="HEAD2X21" library="SPCoast" package="4P-2.0" value="2mm" x="59.89" y="20.32" rot="R270"/>
 <element name="IC1X21" library="SPCoast" package="SO16" value="74HS139A" x="79.448" y="27.559"/>
 <element name="IO4X21" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="94.815" y="27.94" rot="R90"/>
-<element name="R4X21" library="SPCoast" package="0805-RES" value="1k0" x="69.415" y="20.574"/>
-<element name="R6X21" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="16.764"/>
-<element name="R7X21" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="24.384"/>
-<element name="R8X21" library="SPCoast" package="0805-RES" value="1k0" x="69.415" y="36.449"/>
-<element name="R9X21" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="33.274"/>
-<element name="R10X21" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="39.624"/>
+<element name="R4X21" library="SPCoast" package="0603-RES" value="1k0" x="69.415" y="20.574"/>
+<element name="R6X21" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="16.764"/>
+<element name="R7X21" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="24.384"/>
+<element name="R8X21" library="SPCoast" package="0603-RES" value="1k0" x="69.415" y="36.449"/>
+<element name="R9X21" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="33.274"/>
+<element name="R10X21" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="39.624"/>
 <element name="U$1X21" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="93.545" y="11.43"/>
 <element name="U$2X21" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="93.545" y="44.45"/>
-<element name="C1X22" library="SPCoast" package="0805-CAP" value="0.1UF" x="73.225" y="71.336" rot="R270"/>
+<element name="C1X22" library="SPCoast" package="0603-CAP" value="0.1UF" x="73.225" y="71.336" rot="R270"/>
 <element name="CON4X22" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="53.54" y="68.415" rot="R270"/>
 <element name="CON5X22" library="SPCoast" package="SCREWTERMINAL-3.5MM-4" value="3.5mm" x="53.54" y="85.941" rot="R270"/>
 <element name="FID1X22" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.863" y="51.905"/>
@@ -974,15 +975,15 @@ design rules under a new name.
 <element name="HEAD2X22" library="SPCoast" package="4P-2.0" value="Head 2" x="59.89" y="63.97" rot="R270"/>
 <element name="IC1X22" library="SPCoast" package="SO16" value="74HS139A" x="79.448" y="71.209"/>
 <element name="IO4X22" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="94.815" y="71.59" rot="R90"/>
-<element name="R4X22" library="SPCoast" package="0805-RES" value="1k0" x="69.415" y="64.224"/>
-<element name="R6X22" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="60.414"/>
-<element name="R7X22" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="68.034"/>
-<element name="R8X22" library="SPCoast" package="0805-RES" value="1k0" x="69.415" y="80.099"/>
-<element name="R9X22" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="76.924"/>
-<element name="R10X22" library="SPCoast" package="0805-RES" value="2k2" x="69.415" y="83.274"/>
+<element name="R4X22" library="SPCoast" package="0603-RES" value="1k0" x="69.415" y="64.224"/>
+<element name="R6X22" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="60.414"/>
+<element name="R7X22" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="68.034"/>
+<element name="R8X22" library="SPCoast" package="0603-RES" value="1k0" x="69.415" y="80.099"/>
+<element name="R9X22" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="76.924"/>
+<element name="R10X22" library="SPCoast" package="0603-RES" value="2k2" x="69.415" y="83.274"/>
 <element name="U$1X22" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="93.545" y="55.08"/>
 <element name="U$2X22" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="93.545" y="88.1"/>
-<element name="BOARD" library="SPCoast" package="BOARD-10X10-2X2-PANEL" value="10x10" x="0" y="0"/>
+<element name="BOARD" library="SPCoast" package="BOARD-10X10-2X2-PANEL" value="BOARD" x="0" y="0"/>
 <element name="FIDUL" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="9.509" y="96.101"/>
 <element name="FIDLR" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="92.059" y="3.391"/>
 </elements>
@@ -998,13 +999,13 @@ design rules under a new name.
 <wire x1="33.004" y1="28.956" x2="33.258" y2="29.21" width="0.2032" layer="1"/>
 <wire x1="33.258" y1="29.21" x2="33.258" y2="33.274" width="0.2032" layer="1"/>
 <wire x1="33.258" y1="33.274" x2="26.908" y2="39.624" width="0.3048" layer="1"/>
-<wire x1="26.908" y1="39.624" x2="20.315" y2="39.624" width="0.3048" layer="1"/>
+<wire x1="26.908" y1="39.624" x2="20.265" y2="39.624" width="0.3048" layer="1"/>
 <contactref element="R10X11" pad="2"/>
 <contactref element="IC1X11" pad="12"/>
 </signal>
 <signal name="G1-LEDX11">
 <wire x1="10.144" y1="39.195" x2="10.573" y2="39.624" width="0.3048" layer="1"/>
-<wire x1="10.573" y1="39.624" x2="18.515" y2="39.624" width="0.3048" layer="1"/>
+<wire x1="10.573" y1="39.624" x2="18.565" y2="39.624" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="42.291" x2="7.048" y2="42.291" width="0.4064" layer="16"/>
 <wire x1="7.048" y1="42.291" x2="10.144" y2="39.195" width="0.4064" layer="16"/>
 <contactref element="CON5X11" pad="1"/>
@@ -1016,13 +1017,13 @@ design rules under a new name.
 <wire x1="28.813" y1="22.479" x2="28.559" y2="22.225" width="0.3048" layer="1"/>
 <wire x1="28.559" y1="22.225" x2="22.59" y2="22.225" width="0.3048" layer="1"/>
 <wire x1="22.59" y1="22.225" x2="20.431" y2="24.384" width="0.3048" layer="1"/>
-<wire x1="20.431" y1="24.384" x2="20.315" y2="24.384" width="0.3048" layer="1"/>
+<wire x1="20.431" y1="24.384" x2="20.265" y2="24.384" width="0.3048" layer="1"/>
 <contactref element="R7X11" pad="2"/>
 <contactref element="IC1X11" pad="4"/>
 </signal>
 <signal name="G2-LEDX11">
 <wire x1="10.144" y1="23.32" x2="11.208" y2="24.384" width="0.3048" layer="1"/>
-<wire x1="11.208" y1="24.384" x2="18.515" y2="24.384" width="0.3048" layer="1"/>
+<wire x1="11.208" y1="24.384" x2="18.565" y2="24.384" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="24.765" x2="8.699" y2="24.765" width="0.4064" layer="16"/>
 <wire x1="8.699" y1="24.765" x2="10.144" y2="23.32" width="0.4064" layer="16"/>
 <contactref element="CON4X11" pad="1"/>
@@ -1035,7 +1036,7 @@ design rules under a new name.
 <wire x1="26.273" y1="30.6324" x2="26.273" y2="29.083" width="0.254" layer="1"/>
 <wire x1="26.273" y1="29.083" x2="25.003" y2="27.813" width="0.254" layer="1"/>
 <wire x1="25.003" y1="27.813" x2="25.003" y2="24.4856" width="0.254" layer="1"/>
-<wire x1="23.225" y1="26.786" x2="23.236" y2="26.797" width="0.254" layer="1"/>
+<wire x1="23.225" y1="26.836" x2="23.236" y2="26.797" width="0.254" layer="1"/>
 <wire x1="23.236" y1="26.797" x2="23.352" y2="26.681" width="0.4064" layer="1"/>
 <wire x1="23.352" y1="26.681" x2="23.352" y2="24.257" width="0.4064" layer="1"/>
 <wire x1="25.003" y1="24.4856" x2="24.7744" y2="24.257" width="0.4064" layer="1"/>
@@ -1100,13 +1101,13 @@ design rules under a new name.
 <wire x1="29.702" y1="28.956" x2="29.448" y2="29.21" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="29.21" x2="29.448" y2="32.258" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="32.258" x2="28.432" y2="33.274" width="0.3048" layer="1"/>
-<wire x1="28.432" y1="33.274" x2="20.315" y2="33.274" width="0.3048" layer="1"/>
+<wire x1="28.432" y1="33.274" x2="20.265" y2="33.274" width="0.3048" layer="1"/>
 <contactref element="R9X11" pad="2"/>
 <contactref element="IC1X11" pad="11"/>
 </signal>
 <signal name="R1-LEDX11">
 <wire x1="10.144" y1="35.195" x2="12.065" y2="33.274" width="0.3048" layer="1"/>
-<wire x1="12.065" y1="33.274" x2="18.515" y2="33.274" width="0.3048" layer="1"/>
+<wire x1="12.065" y1="33.274" x2="18.565" y2="33.274" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="35.291" x2="10.048" y2="35.291" width="0.4064" layer="16"/>
 <wire x1="10.048" y1="35.291" x2="10.144" y2="35.195" width="0.4064" layer="16"/>
 <contactref element="CON5X11" pad="3"/>
@@ -1116,13 +1117,13 @@ design rules under a new name.
 <signal name="R2X11">
 <wire x1="30.083" y1="21.336" x2="30.083" y2="24.4856" width="0.3048" layer="1"/>
 <wire x1="30.083" y1="21.336" x2="25.511" y2="16.764" width="0.3048" layer="1"/>
-<wire x1="25.511" y1="16.764" x2="20.315" y2="16.764" width="0.3048" layer="1"/>
+<wire x1="25.511" y1="16.764" x2="20.265" y2="16.764" width="0.3048" layer="1"/>
 <contactref element="R6X11" pad="2"/>
 <contactref element="IC1X11" pad="5"/>
 </signal>
 <signal name="R2-LEDX11">
 <wire x1="10.144" y1="19.32" x2="12.7" y2="16.764" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="16.764" x2="18.515" y2="16.764" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="16.764" x2="18.565" y2="16.764" width="0.3048" layer="1"/>
 <wire x1="10.144" y1="19.32" x2="5.095" y2="19.32" width="0.4064" layer="16"/>
 <wire x1="5.095" y1="19.32" x2="3.54" y2="17.765" width="0.4064" layer="16"/>
 <contactref element="CON4X11" pad="3"/>
@@ -1130,10 +1131,10 @@ design rules under a new name.
 <contactref element="HEAD2X11" pad="3"/>
 </signal>
 <signal name="VCCX11">
-<wire x1="23.225" y1="28.586" x2="24.379" y2="28.586" width="0.3048" layer="1"/>
+<wire x1="23.225" y1="28.536" x2="24.379" y2="28.586" width="0.3048" layer="1"/>
 <wire x1="24.379" y1="28.586" x2="25.003" y2="29.21" width="0.3048" layer="1"/>
 <wire x1="25.003" y1="29.21" x2="25.003" y2="30.6324" width="0.3048" layer="1"/>
-<wire x1="23.214" y1="28.575" x2="23.225" y2="28.586" width="0.3048" layer="1"/>
+<wire x1="23.214" y1="28.575" x2="23.225" y2="28.536" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="31.791" x2="8.232" y2="31.791" width="0.4064" layer="16"/>
 <wire x1="8.232" y1="31.791" x2="9.636" y2="33.195" width="0.4064" layer="16"/>
 <wire x1="3.54" y1="14.265" x2="6.581" y2="14.265" width="0.4064" layer="16"/>
@@ -1155,13 +1156,13 @@ design rules under a new name.
 <signal name="Y1X11">
 <wire x1="32.623" y1="32.766" x2="32.623" y2="30.6324" width="0.3048" layer="1"/>
 <wire x1="32.623" y1="32.766" x2="28.94" y2="36.449" width="0.3048" layer="1"/>
-<wire x1="28.94" y1="36.449" x2="20.315" y2="36.449" width="0.3048" layer="1"/>
+<wire x1="28.94" y1="36.449" x2="20.265" y2="36.449" width="0.3048" layer="1"/>
 <contactref element="R8X11" pad="2"/>
 <contactref element="IC1X11" pad="10"/>
 </signal>
 <signal name="Y1-LEDX11">
 <wire x1="9.636" y1="37.195" x2="10.382" y2="36.449" width="0.3048" layer="1"/>
-<wire x1="10.382" y1="36.449" x2="18.515" y2="36.449" width="0.3048" layer="1"/>
+<wire x1="10.382" y1="36.449" x2="18.565" y2="36.449" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="38.791" x2="8.04" y2="38.791" width="0.4064" layer="16"/>
 <wire x1="8.04" y1="38.791" x2="9.636" y2="37.195" width="0.4064" layer="16"/>
 <contactref element="CON5X11" pad="2"/>
@@ -1175,13 +1176,13 @@ design rules under a new name.
 <wire x1="29.702" y1="26.289" x2="29.448" y2="26.035" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="26.035" x2="29.448" y2="21.717" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="21.717" x2="28.305" y2="20.574" width="0.3048" layer="1"/>
-<wire x1="28.305" y1="20.574" x2="20.315" y2="20.574" width="0.3048" layer="1"/>
+<wire x1="28.305" y1="20.574" x2="20.265" y2="20.574" width="0.3048" layer="1"/>
 <contactref element="R4X11" pad="2"/>
 <contactref element="IC1X11" pad="6"/>
 </signal>
 <signal name="Y2-LEDX11">
 <wire x1="9.636" y1="21.32" x2="10.382" y2="20.574" width="0.3048" layer="1"/>
-<wire x1="10.382" y1="20.574" x2="18.515" y2="20.574" width="0.3048" layer="1"/>
+<wire x1="10.382" y1="20.574" x2="18.565" y2="20.574" width="0.3048" layer="1"/>
 <wire x1="9.636" y1="21.32" x2="3.595" y2="21.32" width="0.4064" layer="16"/>
 <wire x1="3.595" y1="21.32" x2="3.54" y2="21.265" width="0.4064" layer="16"/>
 <contactref element="CON4X11" pad="2"/>
@@ -1199,13 +1200,13 @@ design rules under a new name.
 <wire x1="33.004" y1="72.606" x2="33.258" y2="72.86" width="0.2032" layer="1"/>
 <wire x1="33.258" y1="72.86" x2="33.258" y2="76.924" width="0.2032" layer="1"/>
 <wire x1="33.258" y1="76.924" x2="26.908" y2="83.274" width="0.3048" layer="1"/>
-<wire x1="26.908" y1="83.274" x2="20.315" y2="83.274" width="0.3048" layer="1"/>
+<wire x1="26.908" y1="83.274" x2="20.265" y2="83.274" width="0.3048" layer="1"/>
 <contactref element="R10X12" pad="2"/>
 <contactref element="IC1X12" pad="12"/>
 </signal>
 <signal name="G1-LEDX12">
 <wire x1="10.144" y1="82.845" x2="10.573" y2="83.274" width="0.3048" layer="1"/>
-<wire x1="10.573" y1="83.274" x2="18.515" y2="83.274" width="0.3048" layer="1"/>
+<wire x1="10.573" y1="83.274" x2="18.565" y2="83.274" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="85.941" x2="7.048" y2="85.941" width="0.4064" layer="16"/>
 <wire x1="7.048" y1="85.941" x2="10.144" y2="82.845" width="0.4064" layer="16"/>
 <contactref element="CON5X12" pad="1"/>
@@ -1217,13 +1218,13 @@ design rules under a new name.
 <wire x1="28.813" y1="66.129" x2="28.559" y2="65.875" width="0.3048" layer="1"/>
 <wire x1="28.559" y1="65.875" x2="22.59" y2="65.875" width="0.3048" layer="1"/>
 <wire x1="22.59" y1="65.875" x2="20.431" y2="68.034" width="0.3048" layer="1"/>
-<wire x1="20.431" y1="68.034" x2="20.315" y2="68.034" width="0.3048" layer="1"/>
+<wire x1="20.431" y1="68.034" x2="20.265" y2="68.034" width="0.3048" layer="1"/>
 <contactref element="R7X12" pad="2"/>
 <contactref element="IC1X12" pad="4"/>
 </signal>
 <signal name="G2-LEDX12">
 <wire x1="10.144" y1="66.97" x2="11.208" y2="68.034" width="0.3048" layer="1"/>
-<wire x1="11.208" y1="68.034" x2="18.515" y2="68.034" width="0.3048" layer="1"/>
+<wire x1="11.208" y1="68.034" x2="18.565" y2="68.034" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="68.415" x2="8.699" y2="68.415" width="0.4064" layer="16"/>
 <wire x1="8.699" y1="68.415" x2="10.144" y2="66.97" width="0.4064" layer="16"/>
 <contactref element="CON4X12" pad="1"/>
@@ -1236,7 +1237,7 @@ design rules under a new name.
 <wire x1="26.273" y1="74.2824" x2="26.273" y2="72.733" width="0.254" layer="1"/>
 <wire x1="26.273" y1="72.733" x2="25.003" y2="71.463" width="0.254" layer="1"/>
 <wire x1="25.003" y1="71.463" x2="25.003" y2="68.1356" width="0.254" layer="1"/>
-<wire x1="23.225" y1="70.436" x2="23.236" y2="70.447" width="0.254" layer="1"/>
+<wire x1="23.225" y1="70.486" x2="23.236" y2="70.447" width="0.254" layer="1"/>
 <wire x1="23.236" y1="70.447" x2="23.352" y2="70.331" width="0.4064" layer="1"/>
 <wire x1="23.352" y1="70.331" x2="23.352" y2="67.907" width="0.4064" layer="1"/>
 <wire x1="25.003" y1="68.1356" x2="24.7744" y2="67.907" width="0.4064" layer="1"/>
@@ -1301,13 +1302,13 @@ design rules under a new name.
 <wire x1="29.702" y1="72.606" x2="29.448" y2="72.86" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="72.86" x2="29.448" y2="75.908" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="75.908" x2="28.432" y2="76.924" width="0.3048" layer="1"/>
-<wire x1="28.432" y1="76.924" x2="20.315" y2="76.924" width="0.3048" layer="1"/>
+<wire x1="28.432" y1="76.924" x2="20.265" y2="76.924" width="0.3048" layer="1"/>
 <contactref element="R9X12" pad="2"/>
 <contactref element="IC1X12" pad="11"/>
 </signal>
 <signal name="R1-LEDX12">
 <wire x1="10.144" y1="78.845" x2="12.065" y2="76.924" width="0.3048" layer="1"/>
-<wire x1="12.065" y1="76.924" x2="18.515" y2="76.924" width="0.3048" layer="1"/>
+<wire x1="12.065" y1="76.924" x2="18.565" y2="76.924" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="78.941" x2="10.048" y2="78.941" width="0.4064" layer="16"/>
 <wire x1="10.048" y1="78.941" x2="10.144" y2="78.845" width="0.4064" layer="16"/>
 <contactref element="CON5X12" pad="3"/>
@@ -1317,13 +1318,13 @@ design rules under a new name.
 <signal name="R2X12">
 <wire x1="30.083" y1="64.986" x2="30.083" y2="68.1356" width="0.3048" layer="1"/>
 <wire x1="30.083" y1="64.986" x2="25.511" y2="60.414" width="0.3048" layer="1"/>
-<wire x1="25.511" y1="60.414" x2="20.315" y2="60.414" width="0.3048" layer="1"/>
+<wire x1="25.511" y1="60.414" x2="20.265" y2="60.414" width="0.3048" layer="1"/>
 <contactref element="R6X12" pad="2"/>
 <contactref element="IC1X12" pad="5"/>
 </signal>
 <signal name="R2-LEDX12">
 <wire x1="10.144" y1="62.97" x2="12.7" y2="60.414" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="60.414" x2="18.515" y2="60.414" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="60.414" x2="18.565" y2="60.414" width="0.3048" layer="1"/>
 <wire x1="10.144" y1="62.97" x2="5.095" y2="62.97" width="0.4064" layer="16"/>
 <wire x1="5.095" y1="62.97" x2="3.54" y2="61.415" width="0.4064" layer="16"/>
 <contactref element="CON4X12" pad="3"/>
@@ -1331,10 +1332,10 @@ design rules under a new name.
 <contactref element="HEAD2X12" pad="3"/>
 </signal>
 <signal name="VCCX12">
-<wire x1="23.225" y1="72.236" x2="24.379" y2="72.236" width="0.3048" layer="1"/>
+<wire x1="23.225" y1="72.186" x2="24.379" y2="72.236" width="0.3048" layer="1"/>
 <wire x1="24.379" y1="72.236" x2="25.003" y2="72.86" width="0.3048" layer="1"/>
 <wire x1="25.003" y1="72.86" x2="25.003" y2="74.2824" width="0.3048" layer="1"/>
-<wire x1="23.214" y1="72.225" x2="23.225" y2="72.236" width="0.3048" layer="1"/>
+<wire x1="23.214" y1="72.225" x2="23.225" y2="72.186" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="75.441" x2="8.232" y2="75.441" width="0.4064" layer="16"/>
 <wire x1="8.232" y1="75.441" x2="9.636" y2="76.845" width="0.4064" layer="16"/>
 <wire x1="3.54" y1="57.915" x2="6.581" y2="57.915" width="0.4064" layer="16"/>
@@ -1356,13 +1357,13 @@ design rules under a new name.
 <signal name="Y1X12">
 <wire x1="32.623" y1="76.416" x2="32.623" y2="74.2824" width="0.3048" layer="1"/>
 <wire x1="32.623" y1="76.416" x2="28.94" y2="80.099" width="0.3048" layer="1"/>
-<wire x1="28.94" y1="80.099" x2="20.315" y2="80.099" width="0.3048" layer="1"/>
+<wire x1="28.94" y1="80.099" x2="20.265" y2="80.099" width="0.3048" layer="1"/>
 <contactref element="R8X12" pad="2"/>
 <contactref element="IC1X12" pad="10"/>
 </signal>
 <signal name="Y1-LEDX12">
 <wire x1="9.636" y1="80.845" x2="10.382" y2="80.099" width="0.3048" layer="1"/>
-<wire x1="10.382" y1="80.099" x2="18.515" y2="80.099" width="0.3048" layer="1"/>
+<wire x1="10.382" y1="80.099" x2="18.565" y2="80.099" width="0.3048" layer="1"/>
 <wire x1="3.54" y1="82.441" x2="8.04" y2="82.441" width="0.4064" layer="16"/>
 <wire x1="8.04" y1="82.441" x2="9.636" y2="80.845" width="0.4064" layer="16"/>
 <contactref element="CON5X12" pad="2"/>
@@ -1376,13 +1377,13 @@ design rules under a new name.
 <wire x1="29.702" y1="69.939" x2="29.448" y2="69.685" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="69.685" x2="29.448" y2="65.367" width="0.2032" layer="1"/>
 <wire x1="29.448" y1="65.367" x2="28.305" y2="64.224" width="0.3048" layer="1"/>
-<wire x1="28.305" y1="64.224" x2="20.315" y2="64.224" width="0.3048" layer="1"/>
+<wire x1="28.305" y1="64.224" x2="20.265" y2="64.224" width="0.3048" layer="1"/>
 <contactref element="R4X12" pad="2"/>
 <contactref element="IC1X12" pad="6"/>
 </signal>
 <signal name="Y2-LEDX12">
 <wire x1="9.636" y1="64.97" x2="10.382" y2="64.224" width="0.3048" layer="1"/>
-<wire x1="10.382" y1="64.224" x2="18.515" y2="64.224" width="0.3048" layer="1"/>
+<wire x1="10.382" y1="64.224" x2="18.565" y2="64.224" width="0.3048" layer="1"/>
 <wire x1="9.636" y1="64.97" x2="3.595" y2="64.97" width="0.4064" layer="16"/>
 <wire x1="3.595" y1="64.97" x2="3.54" y2="64.915" width="0.4064" layer="16"/>
 <contactref element="CON4X12" pad="2"/>
@@ -1400,13 +1401,13 @@ design rules under a new name.
 <wire x1="83.004" y1="28.956" x2="83.258" y2="29.21" width="0.2032" layer="1"/>
 <wire x1="83.258" y1="29.21" x2="83.258" y2="33.274" width="0.2032" layer="1"/>
 <wire x1="83.258" y1="33.274" x2="76.908" y2="39.624" width="0.3048" layer="1"/>
-<wire x1="76.908" y1="39.624" x2="70.315" y2="39.624" width="0.3048" layer="1"/>
+<wire x1="76.908" y1="39.624" x2="70.265" y2="39.624" width="0.3048" layer="1"/>
 <contactref element="R10X21" pad="2"/>
 <contactref element="IC1X21" pad="12"/>
 </signal>
 <signal name="G1-LEDX21">
 <wire x1="60.144" y1="39.195" x2="60.573" y2="39.624" width="0.3048" layer="1"/>
-<wire x1="60.573" y1="39.624" x2="68.515" y2="39.624" width="0.3048" layer="1"/>
+<wire x1="60.573" y1="39.624" x2="68.565" y2="39.624" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="42.291" x2="57.048" y2="42.291" width="0.4064" layer="16"/>
 <wire x1="57.048" y1="42.291" x2="60.144" y2="39.195" width="0.4064" layer="16"/>
 <contactref element="CON5X21" pad="1"/>
@@ -1418,13 +1419,13 @@ design rules under a new name.
 <wire x1="78.813" y1="22.479" x2="78.559" y2="22.225" width="0.3048" layer="1"/>
 <wire x1="78.559" y1="22.225" x2="72.59" y2="22.225" width="0.3048" layer="1"/>
 <wire x1="72.59" y1="22.225" x2="70.431" y2="24.384" width="0.3048" layer="1"/>
-<wire x1="70.431" y1="24.384" x2="70.315" y2="24.384" width="0.3048" layer="1"/>
+<wire x1="70.431" y1="24.384" x2="70.265" y2="24.384" width="0.3048" layer="1"/>
 <contactref element="R7X21" pad="2"/>
 <contactref element="IC1X21" pad="4"/>
 </signal>
 <signal name="G2-LEDX21">
 <wire x1="60.144" y1="23.32" x2="61.208" y2="24.384" width="0.3048" layer="1"/>
-<wire x1="61.208" y1="24.384" x2="68.515" y2="24.384" width="0.3048" layer="1"/>
+<wire x1="61.208" y1="24.384" x2="68.565" y2="24.384" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="24.765" x2="58.699" y2="24.765" width="0.4064" layer="16"/>
 <wire x1="58.699" y1="24.765" x2="60.144" y2="23.32" width="0.4064" layer="16"/>
 <contactref element="CON4X21" pad="1"/>
@@ -1437,7 +1438,7 @@ design rules under a new name.
 <wire x1="76.273" y1="30.6324" x2="76.273" y2="29.083" width="0.254" layer="1"/>
 <wire x1="76.273" y1="29.083" x2="75.003" y2="27.813" width="0.254" layer="1"/>
 <wire x1="75.003" y1="27.813" x2="75.003" y2="24.4856" width="0.254" layer="1"/>
-<wire x1="73.225" y1="26.786" x2="73.236" y2="26.797" width="0.254" layer="1"/>
+<wire x1="73.225" y1="26.836" x2="73.236" y2="26.797" width="0.254" layer="1"/>
 <wire x1="73.236" y1="26.797" x2="73.352" y2="26.681" width="0.4064" layer="1"/>
 <wire x1="73.352" y1="26.681" x2="73.352" y2="24.257" width="0.4064" layer="1"/>
 <wire x1="75.003" y1="24.4856" x2="74.7744" y2="24.257" width="0.4064" layer="1"/>
@@ -1502,13 +1503,13 @@ design rules under a new name.
 <wire x1="79.702" y1="28.956" x2="79.448" y2="29.21" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="29.21" x2="79.448" y2="32.258" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="32.258" x2="78.432" y2="33.274" width="0.3048" layer="1"/>
-<wire x1="78.432" y1="33.274" x2="70.315" y2="33.274" width="0.3048" layer="1"/>
+<wire x1="78.432" y1="33.274" x2="70.265" y2="33.274" width="0.3048" layer="1"/>
 <contactref element="R9X21" pad="2"/>
 <contactref element="IC1X21" pad="11"/>
 </signal>
 <signal name="R1-LEDX21">
 <wire x1="60.144" y1="35.195" x2="62.065" y2="33.274" width="0.3048" layer="1"/>
-<wire x1="62.065" y1="33.274" x2="68.515" y2="33.274" width="0.3048" layer="1"/>
+<wire x1="62.065" y1="33.274" x2="68.565" y2="33.274" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="35.291" x2="60.048" y2="35.291" width="0.4064" layer="16"/>
 <wire x1="60.048" y1="35.291" x2="60.144" y2="35.195" width="0.4064" layer="16"/>
 <contactref element="CON5X21" pad="3"/>
@@ -1518,13 +1519,13 @@ design rules under a new name.
 <signal name="R2X21">
 <wire x1="80.083" y1="21.336" x2="80.083" y2="24.4856" width="0.3048" layer="1"/>
 <wire x1="80.083" y1="21.336" x2="75.511" y2="16.764" width="0.3048" layer="1"/>
-<wire x1="75.511" y1="16.764" x2="70.315" y2="16.764" width="0.3048" layer="1"/>
+<wire x1="75.511" y1="16.764" x2="70.265" y2="16.764" width="0.3048" layer="1"/>
 <contactref element="R6X21" pad="2"/>
 <contactref element="IC1X21" pad="5"/>
 </signal>
 <signal name="R2-LEDX21">
 <wire x1="60.144" y1="19.32" x2="62.7" y2="16.764" width="0.3048" layer="1"/>
-<wire x1="62.7" y1="16.764" x2="68.515" y2="16.764" width="0.3048" layer="1"/>
+<wire x1="62.7" y1="16.764" x2="68.565" y2="16.764" width="0.3048" layer="1"/>
 <wire x1="60.144" y1="19.32" x2="55.095" y2="19.32" width="0.4064" layer="16"/>
 <wire x1="55.095" y1="19.32" x2="53.54" y2="17.765" width="0.4064" layer="16"/>
 <contactref element="CON4X21" pad="3"/>
@@ -1532,10 +1533,10 @@ design rules under a new name.
 <contactref element="HEAD2X21" pad="3"/>
 </signal>
 <signal name="VCCX21">
-<wire x1="73.225" y1="28.586" x2="74.379" y2="28.586" width="0.3048" layer="1"/>
+<wire x1="73.225" y1="28.536" x2="74.379" y2="28.586" width="0.3048" layer="1"/>
 <wire x1="74.379" y1="28.586" x2="75.003" y2="29.21" width="0.3048" layer="1"/>
 <wire x1="75.003" y1="29.21" x2="75.003" y2="30.6324" width="0.3048" layer="1"/>
-<wire x1="73.214" y1="28.575" x2="73.225" y2="28.586" width="0.3048" layer="1"/>
+<wire x1="73.214" y1="28.575" x2="73.225" y2="28.536" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="31.791" x2="58.232" y2="31.791" width="0.4064" layer="16"/>
 <wire x1="58.232" y1="31.791" x2="59.636" y2="33.195" width="0.4064" layer="16"/>
 <wire x1="53.54" y1="14.265" x2="56.581" y2="14.265" width="0.4064" layer="16"/>
@@ -1557,13 +1558,13 @@ design rules under a new name.
 <signal name="Y1X21">
 <wire x1="82.623" y1="32.766" x2="82.623" y2="30.6324" width="0.3048" layer="1"/>
 <wire x1="82.623" y1="32.766" x2="78.94" y2="36.449" width="0.3048" layer="1"/>
-<wire x1="78.94" y1="36.449" x2="70.315" y2="36.449" width="0.3048" layer="1"/>
+<wire x1="78.94" y1="36.449" x2="70.265" y2="36.449" width="0.3048" layer="1"/>
 <contactref element="R8X21" pad="2"/>
 <contactref element="IC1X21" pad="10"/>
 </signal>
 <signal name="Y1-LEDX21">
 <wire x1="59.636" y1="37.195" x2="60.382" y2="36.449" width="0.3048" layer="1"/>
-<wire x1="60.382" y1="36.449" x2="68.515" y2="36.449" width="0.3048" layer="1"/>
+<wire x1="60.382" y1="36.449" x2="68.565" y2="36.449" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="38.791" x2="58.04" y2="38.791" width="0.4064" layer="16"/>
 <wire x1="58.04" y1="38.791" x2="59.636" y2="37.195" width="0.4064" layer="16"/>
 <contactref element="CON5X21" pad="2"/>
@@ -1577,13 +1578,13 @@ design rules under a new name.
 <wire x1="79.702" y1="26.289" x2="79.448" y2="26.035" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="26.035" x2="79.448" y2="21.717" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="21.717" x2="78.305" y2="20.574" width="0.3048" layer="1"/>
-<wire x1="78.305" y1="20.574" x2="70.315" y2="20.574" width="0.3048" layer="1"/>
+<wire x1="78.305" y1="20.574" x2="70.265" y2="20.574" width="0.3048" layer="1"/>
 <contactref element="R4X21" pad="2"/>
 <contactref element="IC1X21" pad="6"/>
 </signal>
 <signal name="Y2-LEDX21">
 <wire x1="59.636" y1="21.32" x2="60.382" y2="20.574" width="0.3048" layer="1"/>
-<wire x1="60.382" y1="20.574" x2="68.515" y2="20.574" width="0.3048" layer="1"/>
+<wire x1="60.382" y1="20.574" x2="68.565" y2="20.574" width="0.3048" layer="1"/>
 <wire x1="59.636" y1="21.32" x2="53.595" y2="21.32" width="0.4064" layer="16"/>
 <wire x1="53.595" y1="21.32" x2="53.54" y2="21.265" width="0.4064" layer="16"/>
 <contactref element="CON4X21" pad="2"/>
@@ -1601,13 +1602,13 @@ design rules under a new name.
 <wire x1="83.004" y1="72.606" x2="83.258" y2="72.86" width="0.2032" layer="1"/>
 <wire x1="83.258" y1="72.86" x2="83.258" y2="76.924" width="0.2032" layer="1"/>
 <wire x1="83.258" y1="76.924" x2="76.908" y2="83.274" width="0.3048" layer="1"/>
-<wire x1="76.908" y1="83.274" x2="70.315" y2="83.274" width="0.3048" layer="1"/>
+<wire x1="76.908" y1="83.274" x2="70.265" y2="83.274" width="0.3048" layer="1"/>
 <contactref element="R10X22" pad="2"/>
 <contactref element="IC1X22" pad="12"/>
 </signal>
 <signal name="G1-LEDX22">
 <wire x1="60.144" y1="82.845" x2="60.573" y2="83.274" width="0.3048" layer="1"/>
-<wire x1="60.573" y1="83.274" x2="68.515" y2="83.274" width="0.3048" layer="1"/>
+<wire x1="60.573" y1="83.274" x2="68.565" y2="83.274" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="85.941" x2="57.048" y2="85.941" width="0.4064" layer="16"/>
 <wire x1="57.048" y1="85.941" x2="60.144" y2="82.845" width="0.4064" layer="16"/>
 <contactref element="CON5X22" pad="1"/>
@@ -1619,13 +1620,13 @@ design rules under a new name.
 <wire x1="78.813" y1="66.129" x2="78.559" y2="65.875" width="0.3048" layer="1"/>
 <wire x1="78.559" y1="65.875" x2="72.59" y2="65.875" width="0.3048" layer="1"/>
 <wire x1="72.59" y1="65.875" x2="70.431" y2="68.034" width="0.3048" layer="1"/>
-<wire x1="70.431" y1="68.034" x2="70.315" y2="68.034" width="0.3048" layer="1"/>
+<wire x1="70.431" y1="68.034" x2="70.265" y2="68.034" width="0.3048" layer="1"/>
 <contactref element="R7X22" pad="2"/>
 <contactref element="IC1X22" pad="4"/>
 </signal>
 <signal name="G2-LEDX22">
 <wire x1="60.144" y1="66.97" x2="61.208" y2="68.034" width="0.3048" layer="1"/>
-<wire x1="61.208" y1="68.034" x2="68.515" y2="68.034" width="0.3048" layer="1"/>
+<wire x1="61.208" y1="68.034" x2="68.565" y2="68.034" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="68.415" x2="58.699" y2="68.415" width="0.4064" layer="16"/>
 <wire x1="58.699" y1="68.415" x2="60.144" y2="66.97" width="0.4064" layer="16"/>
 <contactref element="CON4X22" pad="1"/>
@@ -1638,7 +1639,7 @@ design rules under a new name.
 <wire x1="76.273" y1="74.2824" x2="76.273" y2="72.733" width="0.254" layer="1"/>
 <wire x1="76.273" y1="72.733" x2="75.003" y2="71.463" width="0.254" layer="1"/>
 <wire x1="75.003" y1="71.463" x2="75.003" y2="68.1356" width="0.254" layer="1"/>
-<wire x1="73.225" y1="70.436" x2="73.236" y2="70.447" width="0.254" layer="1"/>
+<wire x1="73.225" y1="70.486" x2="73.236" y2="70.447" width="0.254" layer="1"/>
 <wire x1="73.236" y1="70.447" x2="73.352" y2="70.331" width="0.4064" layer="1"/>
 <wire x1="73.352" y1="70.331" x2="73.352" y2="67.907" width="0.4064" layer="1"/>
 <wire x1="75.003" y1="68.1356" x2="74.7744" y2="67.907" width="0.4064" layer="1"/>
@@ -1703,13 +1704,13 @@ design rules under a new name.
 <wire x1="79.702" y1="72.606" x2="79.448" y2="72.86" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="72.86" x2="79.448" y2="75.908" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="75.908" x2="78.432" y2="76.924" width="0.3048" layer="1"/>
-<wire x1="78.432" y1="76.924" x2="70.315" y2="76.924" width="0.3048" layer="1"/>
+<wire x1="78.432" y1="76.924" x2="70.265" y2="76.924" width="0.3048" layer="1"/>
 <contactref element="R9X22" pad="2"/>
 <contactref element="IC1X22" pad="11"/>
 </signal>
 <signal name="R1-LEDX22">
 <wire x1="60.144" y1="78.845" x2="62.065" y2="76.924" width="0.3048" layer="1"/>
-<wire x1="62.065" y1="76.924" x2="68.515" y2="76.924" width="0.3048" layer="1"/>
+<wire x1="62.065" y1="76.924" x2="68.565" y2="76.924" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="78.941" x2="60.048" y2="78.941" width="0.4064" layer="16"/>
 <wire x1="60.048" y1="78.941" x2="60.144" y2="78.845" width="0.4064" layer="16"/>
 <contactref element="CON5X22" pad="3"/>
@@ -1719,13 +1720,13 @@ design rules under a new name.
 <signal name="R2X22">
 <wire x1="80.083" y1="64.986" x2="80.083" y2="68.1356" width="0.3048" layer="1"/>
 <wire x1="80.083" y1="64.986" x2="75.511" y2="60.414" width="0.3048" layer="1"/>
-<wire x1="75.511" y1="60.414" x2="70.315" y2="60.414" width="0.3048" layer="1"/>
+<wire x1="75.511" y1="60.414" x2="70.265" y2="60.414" width="0.3048" layer="1"/>
 <contactref element="R6X22" pad="2"/>
 <contactref element="IC1X22" pad="5"/>
 </signal>
 <signal name="R2-LEDX22">
 <wire x1="60.144" y1="62.97" x2="62.7" y2="60.414" width="0.3048" layer="1"/>
-<wire x1="62.7" y1="60.414" x2="68.515" y2="60.414" width="0.3048" layer="1"/>
+<wire x1="62.7" y1="60.414" x2="68.565" y2="60.414" width="0.3048" layer="1"/>
 <wire x1="60.144" y1="62.97" x2="55.095" y2="62.97" width="0.4064" layer="16"/>
 <wire x1="55.095" y1="62.97" x2="53.54" y2="61.415" width="0.4064" layer="16"/>
 <contactref element="CON4X22" pad="3"/>
@@ -1733,10 +1734,10 @@ design rules under a new name.
 <contactref element="HEAD2X22" pad="3"/>
 </signal>
 <signal name="VCCX22">
-<wire x1="73.225" y1="72.236" x2="74.379" y2="72.236" width="0.3048" layer="1"/>
+<wire x1="73.225" y1="72.186" x2="74.379" y2="72.236" width="0.3048" layer="1"/>
 <wire x1="74.379" y1="72.236" x2="75.003" y2="72.86" width="0.3048" layer="1"/>
 <wire x1="75.003" y1="72.86" x2="75.003" y2="74.2824" width="0.3048" layer="1"/>
-<wire x1="73.214" y1="72.225" x2="73.225" y2="72.236" width="0.3048" layer="1"/>
+<wire x1="73.214" y1="72.225" x2="73.225" y2="72.186" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="75.441" x2="58.232" y2="75.441" width="0.4064" layer="16"/>
 <wire x1="58.232" y1="75.441" x2="59.636" y2="76.845" width="0.4064" layer="16"/>
 <wire x1="53.54" y1="57.915" x2="56.581" y2="57.915" width="0.4064" layer="16"/>
@@ -1758,13 +1759,13 @@ design rules under a new name.
 <signal name="Y1X22">
 <wire x1="82.623" y1="76.416" x2="82.623" y2="74.2824" width="0.3048" layer="1"/>
 <wire x1="82.623" y1="76.416" x2="78.94" y2="80.099" width="0.3048" layer="1"/>
-<wire x1="78.94" y1="80.099" x2="70.315" y2="80.099" width="0.3048" layer="1"/>
+<wire x1="78.94" y1="80.099" x2="70.265" y2="80.099" width="0.3048" layer="1"/>
 <contactref element="R8X22" pad="2"/>
 <contactref element="IC1X22" pad="10"/>
 </signal>
 <signal name="Y1-LEDX22">
 <wire x1="59.636" y1="80.845" x2="60.382" y2="80.099" width="0.3048" layer="1"/>
-<wire x1="60.382" y1="80.099" x2="68.515" y2="80.099" width="0.3048" layer="1"/>
+<wire x1="60.382" y1="80.099" x2="68.565" y2="80.099" width="0.3048" layer="1"/>
 <wire x1="53.54" y1="82.441" x2="58.04" y2="82.441" width="0.4064" layer="16"/>
 <wire x1="58.04" y1="82.441" x2="59.636" y2="80.845" width="0.4064" layer="16"/>
 <contactref element="CON5X22" pad="2"/>
@@ -1778,13 +1779,13 @@ design rules under a new name.
 <wire x1="79.702" y1="69.939" x2="79.448" y2="69.685" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="69.685" x2="79.448" y2="65.367" width="0.2032" layer="1"/>
 <wire x1="79.448" y1="65.367" x2="78.305" y2="64.224" width="0.3048" layer="1"/>
-<wire x1="78.305" y1="64.224" x2="70.315" y2="64.224" width="0.3048" layer="1"/>
+<wire x1="78.305" y1="64.224" x2="70.265" y2="64.224" width="0.3048" layer="1"/>
 <contactref element="R4X22" pad="2"/>
 <contactref element="IC1X22" pad="6"/>
 </signal>
 <signal name="Y2-LEDX22">
 <wire x1="59.636" y1="64.97" x2="60.382" y2="64.224" width="0.3048" layer="1"/>
-<wire x1="60.382" y1="64.224" x2="68.515" y2="64.224" width="0.3048" layer="1"/>
+<wire x1="60.382" y1="64.224" x2="68.565" y2="64.224" width="0.3048" layer="1"/>
 <wire x1="59.636" y1="64.97" x2="53.595" y2="64.97" width="0.4064" layer="16"/>
 <wire x1="53.595" y1="64.97" x2="53.54" y2="64.915" width="0.4064" layer="16"/>
 <contactref element="CON4X22" pad="2"/>
